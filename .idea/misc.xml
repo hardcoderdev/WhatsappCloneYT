@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_splash.xml" value="0.33" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_calls.xml" value="0.5" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_chats.xml" value="0.5" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_enter_code.xml" value="0.5" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_splash.xml" value="0.67" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_status.xml" value="0.5" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_welcome.xml" value="0.5" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/WhatsappCloneYT/app/src/main/res/layout/fragment_welcome2.xml" value="0.5" />
       </map>
     </option>
   </component>

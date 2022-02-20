@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
 
+    <fragment
+        android:id="@+id/callsFragment"
+        android:name="hardcoder.dev.whatsappcloneyt.ui.features.calls.CallsFragment"
+        android:label="fragment_calls"
+        tools:layout="@layout/fragment_calls" />
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="hardcoder.dev.whatsappcloneyt.ui.features.chats.ChatsFragment"
+        android:label="fragment_chats"
+        tools:layout="@layout/fragment_chats" />
+    <fragment
+        android:id="@+id/enterCodeFragment"
+        android:name="hardcoder.dev.whatsappcloneyt.ui.features.enterCode.EnterCodeFragment"
+        android:label="fragment_enter_code"
+        tools:layout="@layout/fragment_enter_code" />
+    <fragment
+        android:id="@+id/enterPhoneFragment"
+        android:name="hardcoder.dev.whatsappcloneyt.ui.features.enterPhoneNumber.EnterPhoneFragment"
+        android:label="fragment_enter_phone"
+        tools:layout="@layout/fragment_enter_phone" >
+        <action
+            android:id="@+id/action_enterPhoneFragment_to_enterCodeFragment"
+            app:destination="@id/enterCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="hardcoder.dev.whatsappcloneyt.ui.features.status.StatusFragment"
+        android:label="fragment_status"
+        tools:layout="@layout/fragment_status" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="hardcoder.dev.whatsappcloneyt.ui.features.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="hardcoder.dev.whatsappcloneyt.ui.features.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_enterPhoneFragment"
+            app:destination="@id/enterPhoneFragment" />
+    </fragment>
 </navigation>

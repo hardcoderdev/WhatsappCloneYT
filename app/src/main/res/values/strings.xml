@@ -2,7 +2,4 @@
     <string name="app_name">WhatsappCloneYT</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="app_logo_cd">App logo</string>
-    <string name="meta_label">Meta</string>
-    <string name="from_label">from</string>
 </resources>
